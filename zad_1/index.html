@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zad_1</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Pogodowy Planer Podróży</h1>
+        <p>Kliknij na mapie, aby pobrać pogodę dla tego miejsca i dodaj je do swoich celów podróży.</p>
+      </header>
+
+      <main class="layout">
+        <section id="map" class="map"></section>
+
+        <aside class="sidebar">
+          <div id="weather-card" class="card small">
+            <h3>Informacje o miejscu</h3>
+            <p class="muted">Kliknij na mapie, aby zobaczyć aktualną pogodę.</p>
+          </div>
+
+          <div class="card">
+            <h3>Moje cele podróży</h3>
+            <ul id="goals-list"></ul>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+  <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
